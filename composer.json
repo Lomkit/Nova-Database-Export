@@ -1,5 +1,5 @@
 {
-    "name": "lomkit/export",
+    "name": "lomkit/nova-database-export",
     "description": "A Laravel Nova tool.",
     "keywords": [
         "laravel",
