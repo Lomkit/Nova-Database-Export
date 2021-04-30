@@ -13,7 +13,7 @@
     },
     // ...
     "repositories": [
-        { "type": "vcs", "url": "https://github.com/Lomkit/Laravel.git" }
+        { "type": "vcs", "url": "https://github.com/Lomkit/Nova-Database-Export.git" }
     ],
 }
 ```
