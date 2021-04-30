@@ -9,7 +9,7 @@
 {
     // ...
     "require": {
-        "lomkit/export": "*",
+        "lomkit/nova-database-export": "*",
     },
     // ...
     "repositories": [
