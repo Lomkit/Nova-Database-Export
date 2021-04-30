@@ -29,8 +29,8 @@
                 Charging fields ...
             </h1>
         </card>
-        <div v-else>
-            <div class="flex">
+        <template v-else>
+            <div class="flex flex-wrap">
                 <Field v-for="(field, key) in fields" :field="field" :key="key" :index="key" />
             </div>
             <div class="flex">
@@ -40,7 +40,7 @@
                     </a>
                 </div>
             </div>
-        </div>
+        </template>
     </div>
 </template>
 
