@@ -30,7 +30,7 @@
             </h1>
         </card>
         <template v-else>
-            <div class="flex flex-wrap">
+            <div class="flex flex-wrap -mx-3 mb-3">
                 <Field v-for="(field, key) in fields" :field="field" :key="key" :index="key" />
             </div>
             <div class="flex">
