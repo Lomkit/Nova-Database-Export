@@ -1,0 +1,30 @@
+{
+    "name": "lomkit/export",
+    "description": "A Laravel Nova tool.",
+    "keywords": [
+        "laravel",
+        "nova"
+    ],
+    "license": "MIT",
+    "require": {
+        "php": ">=7.1.0",
+        "stechstudio/laravel-zipstream": "^4.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Lomkit\\Export\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Lomkit\\Export\\ToolServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
