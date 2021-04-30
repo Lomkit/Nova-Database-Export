@@ -8,7 +8,9 @@
     "license": "MIT",
     "require": {
         "php": ">=7.1.0",
-        "stechstudio/laravel-zipstream": "^4.2"
+        "laravel/framework": "^8.40",
+        "stechstudio/laravel-zipstream": "^4.2",
+        "ext-json": "*"
     },
     "autoload": {
         "psr-4": {

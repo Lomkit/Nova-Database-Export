@@ -63,7 +63,6 @@ export default {
             .get('/nova-vendor/export/get/fields')
             .then(({ data }) => {
                 this.fields = data
-                console.log(data)
             })
     },
 }

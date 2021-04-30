@@ -9,7 +9,6 @@ use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Str;
 use Lomkit\Export\Export;
 use Lomkit\Export\Traits\FindsTools;
-use STS\ZipStream\ZipStream;
 
 class ExportController
 {
